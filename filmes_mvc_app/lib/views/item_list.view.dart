@@ -73,7 +73,7 @@ class _ItemListView extends State<ItemListView> {
                       icon: Icon(
                         Icons.delete,
                         size: 20.0,
-                        color: Colors.yellow[500],
+                        color: Colors.yellow[800],
                       ),
                       onPressed: () {
                         controller.delete(i).then((data) {
